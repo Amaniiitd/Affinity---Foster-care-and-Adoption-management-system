@@ -1,0 +1,36 @@
+/* Add font to whole page */
+body {
+    color: #000;
+    font-family: 'Bitter', serif;
+ }
+ 
+ /* Centered text on jumbotron*/
+.centered {
+     position: absolute;
+     top: 55%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: left;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 700;
+ }
+
+.aboutus {
+    background-color: rgba(196,196,196,0.8);
+    border-radius: 50px;
+    padding: 18px;
+    /* height: 250px; */
+}
+
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.navbar-brand{
+    position: relative;
+    left: 8px;
+}

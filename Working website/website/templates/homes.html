@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="/static/styles/homes.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Title Bar -->
+    <title>Affinity</title>
+</head>
+
+<body>
+        <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+        <div class="container-fluid">
+            <div class="logo-image">
+                <a href="/#">
+                    <img src="/static/imgs/Affinity2.png" class="img-fluid">
+                </a>
+            </div>
+            <a class="navbar-brand" href="/#" target="_self">Affinity</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/meetthechildren">Meet The Children</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/homes">Welfare Homes</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <!-- <li><a class="dropdown-item" href="#">Statistics</a></li> -->
+                            <li><a class="dropdown-item" href="http://cara.nic.in/">Government Portal</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/aboutus">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-success" type="button" href="/login">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- JUMBOTRON -->
+    <!-- <div class="jumbotron centered"> -->
+    <div class="container my-5">
+        <h1 class=" display-4 mt-5" id="title">Welfare Homes</h1>
+        <p class="lead">We are keeping them safe!</p>
+
+        <div class="row align-items-start">
+            <!-- CARD1 -->
+            <div class="card col-6 col-md-3 col-lg-2" style="width: 18rem;">
+                <img src="{{url_for('static', filename='/imgs/homes/home1.jpg')}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Seva Bharti</h5>
+                    <p class="card-text">
+                        Contact: Ms. Jolly Geevarghese<br/>
+                        Phone No: 011 25291672<br/>
+                        Adoptable Children: 24
+                    </p>
+                    <a href="#" class="btn btn-primary">Know more!</a>
+                </div>
+            </div>
+            <!-- CARD2 -->
+            <div class="card col-6 col-md-3 col-lg-2" style="width: 18rem;">
+                <img src="{{url_for('static', filename='/imgs/homes/home2.jpg')}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Holy Cross</h5>
+                    <p class="card-text">
+                        Contact: Ms. Jolly Geevarghese<br/>
+                        Phone No: 011 25291672<br/>
+                        Adoptable Children: 24
+                    </p>
+                    <a href="#" class="btn btn-primary">Know more!</a>
+                </div>
+            </div>
+            <!-- CARD3 -->
+            <div class="card col-6 col-md-3 col-lg-2" style="width: 18rem;">
+                <img src="{{url_for('static', filename='/imgs/homes/home3.jpg')}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Jeevan</h5>
+                    <p class="card-text">
+                        Contact: Ms. Jolly Geevarghese<br/>
+                        Phone No: 011 25291672<br/>
+                        Adoptable Children: 24
+                    </p>
+                    <a href="#" class="btn btn-primary">Know more!</a>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-start">
+            <!-- CARD4 -->
+            <div class="card col-6 col-md-3 col-lg-2" style="width: 18rem;">
+                <img src="{{url_for('static', filename='/imgs/homes/home4.jpg')}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Asha Care Centre</h5>
+                    <p class="card-text">
+                        Contact: Ms. Jolly Geevarghese<br/>
+                        Phone No: 011 25291672<br/>
+                        Adoptable Children: 24
+                    </p>
+                    <a href="#" class="btn btn-primary">Know more!</a>
+                </div>
+            </div>
+            <!-- CARD5 -->
+            <div class="card col-6 col-md-3 col-lg-2" style="width: 18rem;">
+                <img src="{{url_for('static', filename='/imgs/homes/home5.jpg')}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Aastha Homes</h5>
+                    <p class="card-text">
+                        Contact: Ms. Jolly Geevarghese<br/>
+                        Phone No: 011 25291672<br/>
+                        Adoptable Children: 24
+                    </p>
+                    <a href="#" class="btn btn-primary">Know more!</a>
+                </div>
+            </div>
+            <!-- CARD6 -->
+            <div class="card col-6 col-md-3 col-lg-2" style="width: 18rem;">
+                <img src="{{url_for('static', filename='/imgs/homes/home6.jpg')}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mother Care</h5>
+                    <p class="card-text">
+                        Contact: Ms. Jolly Geevarghese<br/>
+                        Phone No: 011 25291672<br/>
+                        Adoptable Children: 24
+                    </p>
+                    <a href="#" class="btn btn-primary">Know more!</a>
+                </div>
+            </div>
+        </div>
+
+
+        <hr class="my-4">
+        <p>Ready to take the next step?</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" id="knowmore" href="#" role="button">Log in make an enquiry</a>
+        </p>
+    </div>
+
+
+    <!-- Optional JavaScript; -->
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

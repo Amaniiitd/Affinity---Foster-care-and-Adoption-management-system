@@ -1,0 +1,44 @@
+/* Add font to whole page */
+body {
+    font-size: 1em;
+    color: #000;
+    font-family: 'Bitter', serif;
+ }
+ 
+ /* Centered text on jumbotron*/
+ .centered {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 700;
+ }
+ 
+ /* Know More on Jumbotron*/
+ #knowmore {
+     background-color: #70DCF6;
+ }
+
+ /* Make image carousel square */
+ .squareImage {
+    background: 50% 50% no-repeat;
+    border: 10px solid #ddd;	  /* thickness and color of border */
+    border-radius: 10px;		    /* edge rounding of border */
+    width: 500px;				/* width of image (px or % or auto) */
+    height: auto;				/* height of image (px or % or auto) */
+}
+
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.navbar-brand{
+    position: relative;
+    left: 8px;
+}

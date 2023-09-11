@@ -1,0 +1,46 @@
+/* Add font to whole page */
+body {
+    font-size: 1em;
+    color: #000;
+    font-family: 'Bitter', serif;
+}
+
+ /* Centered text on jumbotron */
+.centirc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.card {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+}
+
+#title {
+    /* margin-top:500px; */
+    text-align: center;
+}
+
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.navbar-brand{
+    position: relative;
+    left: 8px;
+}
+
+
+ 
+
+ 

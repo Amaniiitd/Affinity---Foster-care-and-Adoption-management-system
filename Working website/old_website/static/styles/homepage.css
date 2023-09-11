@@ -1,0 +1,67 @@
+/* Add font to whole page */
+body {
+   color: #000;
+   font-family: 'Bitter', serif;
+}
+
+/* Centered text on jumbotron*/
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+/* botoom right text card */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Know More on Jumbotron*/
+#knowmore {
+    background-color: #70DCF6;
+}
+
+.card {
+    color: #330463;
+    background-color: rgba(196,196,196,0.8);
+    border-radius: 30px;
+}
+
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.navbar-brand{
+    position: relative;
+    left: 8px;
+}
+
+Button{
+    background-color: #70DCF6;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  /* Add a hover effect for buttons */
+Button:hover {
+    opacity: 0.8;
+}
